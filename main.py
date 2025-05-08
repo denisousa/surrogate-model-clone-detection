@@ -27,7 +27,6 @@ print()
 nn_regressor_pipeline_mrr, _ = get_nn_regressor_pipeline('mrr', X, y_mrr, preprocessor)
 nn_regressor_pipeline_mop, _ = get_nn_regressor_pipeline('mop', X, y_mop, preprocessor)
 
-
 new_parameters = {
     'ngramSize': 10,
     'cloneSize': 13,
